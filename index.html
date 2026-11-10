@@ -293,26 +293,6 @@ a{color:inherit}
 .lz-bill{font-size:12px;color:var(--lz-muted);text-align:center;margin-top:10px}
 .lz-legal{display:flex;justify-content:center;gap:16px;margin-top:6px;font-size:11px;color:#5F6778}
 
-/* offer sheet — trial timeline on the same yearly plan */
-.lz-dim{position:absolute;inset:0;background:rgba(0,0,0,.6)}
-.scr--offer .scr-body{display:flex;flex-direction:column;justify-content:flex-end;padding:0;overflow:visible}
-.lz-sheet{background:#0A1426;border-radius:26px 26px 0 0;padding:10px 20px 26px;position:relative;border-top:1px solid rgba(255,255,255,.08)}
-.lz-grab{width:40px;height:5px;border-radius:3px;background:rgba(255,255,255,.2);margin:0 auto 6px}
-.lz-sheet .lz-ic{position:absolute;top:12px;right:12px}
-.lz-oh{font-size:25px;line-height:1.16;font-weight:700;letter-spacing:-.02em;text-align:center;margin-top:18px}
-.lz-oh em{font-style:normal;color:var(--lz-blue)}
-.lz-osub{font-size:14px;line-height:1.42;color:var(--lz-txt);text-align:center;margin:8px 6px 0}
-.lz-tlz{list-style:none;margin:22px 0 0;position:relative}
-.lz-tlz::before{content:'';position:absolute;left:17px;top:20px;bottom:20px;width:2px;background:linear-gradient(180deg,var(--lz-blue),rgba(61,139,255,.15))}
-.lz-tlz li{display:flex;gap:14px;padding:7px 0;position:relative}
-.lz-tlz .ic{width:36px;height:36px;border-radius:50%;background:#12233F;border:2px solid var(--lz-blue);display:grid;place-items:center;flex:none;color:var(--lz-blue)}
-.lz-tlz .ic svg{width:17px;height:17px}
-.lz-tlz li:first-child .ic{background:var(--lz-blue);color:#fff}
-.lz-tlz b{display:block;font-size:15px;font-weight:600;color:#fff;margin-top:1px}
-.lz-tlz span{display:block;font-size:13px;color:var(--lz-txt);line-height:1.4;margin-top:1px}
-.lz-ofoot{margin-top:20px}
-.lz-no{display:block;width:100%;height:38px;margin-top:6px;font-size:14px;font-weight:500;color:var(--lz-muted)}
-
 /* light mode — an approximation: the app ships dark only in the frames we have */
 .phone-in.light{--lz-bg1:#EAF1FD;--lz-bg2:#F2F6FC;--lz-bg3:#F6F8FC;--lz-pay:#F6F8FC;--lz-chip:rgba(14,23,38,.07);
   --lz-plan:#FFFFFF;--lz-planline:#DCE3F2;--lz-tile:#E3EBFA;--lz-ink:#0E1726;--lz-txt:#4E5A6A;--lz-muted:#7F8A99;--lz-cta:#0E1726;background:var(--lz-bg3)}
@@ -345,12 +325,6 @@ a{color:inherit}
 .phone-in.light .lz-plan.on .lz-radio{border-color:#fff}
 .phone-in.light .lz-pcta{color:#fff}
 .phone-in.light .lz-legal{color:#99A2B1}
-.phone-in.light .lz-sheet{background:#FFFFFF;border-top-color:rgba(14,23,38,.06)}
-.phone-in.light .lz-grab{background:rgba(14,23,38,.18)}
-.phone-in.light .lz-tlz .ic{background:#EAF2FF}
-.phone-in.light .lz-tlz li:first-child .ic{background:var(--lz-blue)}
-.phone-in.light .lz-tlz b{color:#0E1726}
-.phone-in.light .lz-sheet .lz-ic{color:rgba(14,23,38,.55)}
 
 /* prototype toolbar, walkthrough, QR */
 .tools{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:520px}
@@ -382,7 +356,6 @@ a{color:inherit}
 .chips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;max-width:470px;margin:0 auto}
 .chip{padding:7px 13px;border-radius:20px;border:1px solid var(--hair2);background:var(--surf);font:600 12px/1 'Inter',sans-serif;color:var(--ink2);transition:.14s}
 .chip:hover{color:var(--ink);border-color:rgba(214,226,245,.32)}
-.chip.offer{border-style:dashed;border-color:var(--accent-lift);color:var(--accent-lift)}
 .chip.on{background:var(--accent);border-color:var(--accent);color:#fff;border-style:solid}
 .chiphint{text-align:center;font-size:11px;color:var(--ink3);margin:0;max-width:430px}
 
@@ -445,12 +418,12 @@ a{color:inherit}
   <div class="wrap">
     <div class="eyebrow">Growth Audit · November 2026</div>
     <h1>Lens AI</h1>
-    <p class="lede">Five ideas to unlock more revenue from the traffic you already have.</p>
+    <p class="lede">Four ideas to unlock more revenue from the traffic you already have.</p>
     <div class="meta">Prepared by <b>Adapty</b> · based on your live iOS flow and your App Store listing</div>
     <div class="herobtns"><button class="ghostbtn" data-demo><span class="pl"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5z"/></svg></span>Watch the 30-second walkthrough</button></div>
     <div class="stats">
       <div class="stat"><b>30,000+</b><span>apps run subscriptions<br>on Adapty</span></div>
-      <div class="stat"><b>5</b><span>ideas, each rebuilt<br>as a working screen</span></div>
+      <div class="stat"><b>4</b><span>ideas, each rebuilt<br>as a working screen</span></div>
       <div class="stat"><b>0</b><span>design changes<br>to your art direction</span></div>
     </div>
     <div class="fb">
@@ -472,11 +445,11 @@ a{color:inherit}
     <div class="sec-k">What this is</div>
     <h2>We opened Lens AI the way a new user does, then rebuilt the parts we think are leaving money on the table.</h2>
     <p class="body">Adapty powers subscriptions for <b>30,000+ apps</b>, so we see what moves conversion and revenue across the market, not inside one app. We pointed that at Lens AI. We installed it, went from the first question to the paywall, read your App Store listing, and looked for gaps between what you already have and what you show people.</p>
-    <p class="body">What follows is five ideas, not fifteen. Each one is a hypothesis you can A/B test, and each one is built into a clickable prototype so you can see it rather than imagine it. <b>The prototype uses your design, not ours.</b></p>
+    <p class="body">What follows is four ideas, not fifteen. Each one is a hypothesis you can A/B test, and each one is built into a clickable prototype so you can see it rather than imagine it. <b>The prototype uses your design, not ours.</b></p>
     <div class="notes">
       <div class="note">
         <h4>We did not redesign your app</h4>
-        <p>Every screen in the prototype is yours: the night-blue screens, the emoji category chips, the full-bleed scan photos with their brackets, the dotted loader, the tilted photo collage, the blue plan cards with “EN İYİ” and your Devam button. Only what the screens say changed, plus one offer when someone closes the paywall.</p>
+        <p>Every screen in the prototype is yours: the night-blue screens, the emoji category chips, the full-bleed scan photos with their brackets, the dotted loader, the tilted photo collage, the blue plan cards with “EN İYİ” and your Devam button. Only what the screens say changed.</p>
       </div>
       <div class="note">
         <h4>You may have tested some of this</h4>
@@ -490,7 +463,7 @@ a{color:inherit}
 
 <div class="sec">
   <div class="wrap">
-    <div class="sec-k">The five ideas</div>
+    <div class="sec-k">The four ideas</div>
     <h2>Ranked by what we would test first.</h2>
     <p class="body">Each one links straight to the screen in the prototype.</p>
 
@@ -505,18 +478,8 @@ a{color:inherit}
         <span class="out"><b>CR +10–20%</b><span>to purchase</span></span>
       </button>
 
-      <button class="idea" data-jump="offer">
-        <span class="no">02</span>
-        <span>
-          <h3>Offer the 1-week trial when they close the paywall</h3>
-          <p>Today the X on the paywall just closes it. Move the 1-week trial your loader already names to the moment they say no, on the same $39.99 yearly plan. The trial becomes a second chance instead of a promise the next screen breaks.</p>
-          <span class="seeit">See the screen <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-        </span>
-        <span class="out"><b>ARPU +10–15%</b><span>second chance</span></span>
-      </button>
-
       <button class="idea" data-jump="paywall">
-        <span class="no">03</span>
+        <span class="no">02</span>
         <span>
           <h3>Name what they picked in the headline</h3>
           <p>Your first screen asks what they will use AI Lens for, across 14 categories. Nothing after it uses the answer: the slides, the loader and the paywall say the same thing to everyone, ending on “Her Şeyi Tanımlayın”.</p>
@@ -526,7 +489,7 @@ a{color:inherit}
       </button>
 
       <button class="idea" data-jump="paywall">
-        <span class="no">04</span>
+        <span class="no">03</span>
         <span>
           <h3>Say what yearly saves, and what gets billed</h3>
           <p>Weekly at $9.99 comes to $519.48 a year, so $39.99 yearly is 92% less. The yearly card says “EN İYİ” and $0.77 a week, but never the saving, and nothing next to Devam says what will be charged.</p>
@@ -536,7 +499,7 @@ a{color:inherit}
       </button>
 
       <button class="idea" data-jump="ready">
-        <span class="no">05</span>
+        <span class="no">04</span>
         <span>
           <h3>Put your 4.5 stars where they decide</h3>
           <p>4.5K people rate Lens AI 4.5 on the US App Store. That rating appears nowhere between the first question and the price.</p>
@@ -549,11 +512,11 @@ a{color:inherit}
     <div class="band">
       <div class="txt">
         <div class="lab">Potential outcome</div>
-        <p>Run together, these five work on the same funnel at three points: keeping the promise the loader makes, a paywall that answers the first question, and a real second chance when someone says no.</p>
+        <p>Run together, these four work on the last two steps before the price: keeping the promise the loader makes, and a paywall that answers the first question and says plainly what yearly saves.</p>
       </div>
       <div class="nums">
         <div><b>+25%</b><span>CR to purchase</span></div>
-        <div><b>+30%</b><span>ARPU</span></div>
+        <div><b>+20%</b><span>ARPU</span></div>
       </div>
     </div>
 
@@ -684,31 +647,7 @@ a{color:inherit}
   </div>
 </section>
 
-<!-- OFFER ON CLOSE: the 1-week trial their loader names, on the same yearly plan -->
-<section class="scr scr--offer sheet" data-id="offer">
-  <div class="lz-dim"></div>
-  <div class="scr-top" style="padding:0"></div>
-  <div class="scr-body">
-    <div class="lz-sheet">
-      <div class="lz-grab"></div>
-      <button class="lz-ic" id="offClose" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
-      <h2 class="lz-oh" data-th="of.h"></h2>
-      <p class="lz-osub" id="offSub"></p>
-      <ul class="lz-tlz">
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 7.5-2"/></svg></span><div><b data-t="of.t1"></b><span data-t="of.d1"></span></div></li>
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z"/><path d="M12 7v5l3 2"/></svg></span><div><b data-t="of.t2"></b><span data-t="of.d2"></span></div></li>
-        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span><div><b data-t="of.t3"></b><span data-t="of.d3"></span></div></li>
-      </ul>
-      <div class="lz-ofoot">
-        <button class="lz-pcta" id="offerCta" data-t="of.cta"></button>
-        <div class="lz-bill" data-t="of.bill"></div>
-        <button class="lz-no" id="offNo" data-t="of.no"></button>
-      </div>
-    </div>
-  </div>
-</section>
-
-        </div>
+</div>
       </div>
     </div>
     <div class="demo-cap hidden" id="demoCap"><div class="bar"><i id="demoProg"></i></div><p id="demoTxt"></p><button id="demoStop">Stop</button></div>
@@ -751,18 +690,6 @@ var T={
  'bill.y': ['Yıllık $39.99 faturalanır · İstediğin zaman iptal et','Billed $39.99 a year · Cancel anytime'],
  'bill.w': ['Haftalık $9.99 faturalanır · İstediğin zaman iptal et','Billed $9.99 a week · Cancel anytime'],
  'lg.terms':['Koşullar','Terms'], 'lg.rest':['Geri Yükle','Restore'], 'lg.priv':['Gizlilik','Privacy'],
- 'of.h':   ['Önce <em>1 hafta</em> dene','Try it for <em>1 week</em> first'],
- 'of.sub': ['{c} için AI Lens bugün açılır. Yıllık plan deneme bitince başlar.','AI Lens for {c}, unlocked today. The yearly plan starts when the trial ends.'],
- 'of.subAll':['AI Lens bugün açılır. Yıllık plan deneme bitince başlar.','AI Lens, unlocked today. The yearly plan starts when the trial ends.'],
- 'of.t1':  ['Bugün','Today'],
- 'of.d1':  ['Bir tıkla tanıma, içgörüler ve YZ asistanın açık.','One-tap identification, insights and your AI assistant, unlocked.'],
- 'of.t2':  ['Deneme boyunca','During the trial'],
- 'of.d2':  ["Ayarlar'dan istediğin zaman iptal edebilirsin.",'Cancel any time in Settings.'],
- 'of.t3':  ['7. gün','Day 7'],
- 'of.d3':  ['Yıllık plan başlar: $39.99 — haftada $0.77.','Your yearly plan starts: $39.99 — $0.77 a week.'],
- 'of.cta': ['1 haftalık denemeyi başlat','Start my 1-week trial'],
- 'of.bill':['Sonra yıllık $39.99 · İstediğin zaman iptal et','Then $39.99 a year · Cancel anytime'],
- 'of.no':  ['Hayır, teşekkürler','No thanks'],
  'and':    [' ve ',' and '], 'more':[' ve {n} alan daha',' and {n} more']
 };
 var SLIDES=[
@@ -871,13 +798,11 @@ function syncScreen(){
   document.getElementById('payH').innerHTML= all ? t('pw.hAll') : t('pw.h',{c:cl});
   document.querySelectorAll('#planList .lz-plan').forEach(function(b){ b.classList.toggle('on',b.dataset.v===S.plan); });
   document.getElementById('payBill').textContent=t(S.plan==='year'?'bill.y':'bill.w');
-  /* offer */
-  document.getElementById('offSub').textContent= all ? t('of.subAll') : t('of.sub',{c:cl});
 }
 
 /* ================= router ================= */
-var ORDER=['use','intro','loader','ready','paywall','offer'];
-var LABEL={use:'What will you use it for?',intro:'Welcome slides',loader:'Loader',ready:'Ready',paywall:'Paywall',offer:'Offer on close'};
+var ORDER=['use','intro','loader','ready','paywall'];
+var LABEL={use:'What will you use it for?',intro:'Welcome slides',loader:'Loader',ready:'Ready',paywall:'Paywall'};
 var scr={}, hist=[], cur='use', loadTimers=[];
 document.querySelectorAll('.scr').forEach(function(s){ scr[s.dataset.id]=s; });
 
@@ -901,7 +826,6 @@ function jump(id){
   var i=ORDER.indexOf(id);
   Object.keys(scr).forEach(function(k){ scr[k].classList.add('nofx'); scr[k].classList.remove('is-active','is-past'); });
   hist=ORDER.slice(0,i<0?0:i);
-  if(id==='offer') scr.paywall.classList.add('is-active');
   if(id==='intro') S.slide=0;
   scr[id].classList.add('is-active'); cur=id;
   requestAnimationFrame(function(){ requestAnimationFrame(function(){ Object.keys(scr).forEach(function(k){ scr[k].classList.remove('nofx'); }); }); });
@@ -911,7 +835,7 @@ var chipsBuilt=false;
 function paintChips(){
   var c=document.getElementById('chips');
   if(!chipsBuilt){ chipsBuilt=true;
-    ORDER.forEach(function(id){ var b=document.createElement('button'); b.className='chip'+(id==='offer'?' offer':''); b.textContent=LABEL[id];
+    ORDER.forEach(function(id){ var b=document.createElement('button'); b.className='chip'; b.textContent=LABEL[id];
       b.dataset.id=id; b.onclick=function(){ stopDemo(); jump(id); }; c.appendChild(b); }); }
   c.querySelectorAll('.chip').forEach(function(b){ b.classList.toggle('on',b.dataset.id===cur); });
 }
@@ -928,9 +852,7 @@ document.querySelectorAll('[data-go]').forEach(function(b){ b.addEventListener('
 document.getElementById('useBtn').addEventListener('click',function(){ if(S.cats.length) go('intro'); });
 document.getElementById('introBtn').addEventListener('click',function(){ if(S.slide<3){ S.slide++; syncScreen(); } else go('loader'); });
 document.querySelectorAll('#planList .lz-plan').forEach(function(b){ b.addEventListener('click',function(){ S.plan=b.dataset.v; syncScreen(); }); });
-document.getElementById('payClose').addEventListener('click',function(){ go('offer'); });
-document.getElementById('offClose').addEventListener('click',function(){ jump('use'); });
-document.getElementById('offNo').addEventListener('click',function(){ jump('use'); });
+document.getElementById('payClose').addEventListener('click',function(){ jump('use'); });
 
 function setSeg(id,attr,val){ document.querySelectorAll('#'+id+' button').forEach(function(b){ b.classList.toggle('on',b.dataset[attr]===val); }); }
 function setLang(l){ S.lang=l; S0.lang=l; setSeg('segLang','lang',l); applyStatic(); syncScreen(); paintPanel(); }
@@ -957,7 +879,7 @@ function startDemo(){
   var keep={lang:S.lang,theme:S.theme}; S=defaults(); S.lang=keep.lang; S.theme=keep.theme; S.cats=['plant','pet'];
   applyStatic(); jump('use');
   document.getElementById('demoCap').classList.remove('hidden');
-  demo.iv=setInterval(function(){ document.getElementById('demoProg').style.width=Math.min(100,(Date.now()-demo.t0)/213)+'%'; },200);
+  demo.iv=setInterval(function(){ document.getElementById('demoProg').style.width=Math.min(100,(Date.now()-demo.t0)/181)+'%'; },200);
   (async function(){
     try{
       cap('Your first question, unchanged: what will you use AI Lens for?'); await pause(900,tok);
@@ -971,8 +893,7 @@ function startDemo(){
       await tap('[data-id=ready] .lz-btn',tok);
       cap('The paywall names plants, pets and coins, and says what yearly saves.'); await pause(1900,tok);
       await tap('#planList [data-v=week]',tok); await pause(600,tok); await tap('#planList [data-v=year]',tok); await pause(400,tok);
-      cap('They close it. The 1-week trial is the second chance.'); await tap('#payClose',tok); await pause(2400,tok);
-      cap('Same screens, same design. One promise kept, one new offer.');
+      cap('Same screens, same design. One promise kept.');
       finger.classList.remove('show'); await pause(1800,tok); stopDemo();
     }catch(e){}
   })();
@@ -987,7 +908,7 @@ phoneIn.addEventListener('pointerdown',function(e){ if(e.isTrusted && demo.on) s
 /* ---- the short panel: hypothesis + potential outcome, nothing else ---- */
 var PANEL={
 use:{ctx:true,t:'What will you use AI Lens for?',
- kept:'Untouched: all fourteen categories in your three groups, the emoji chips, the blue selected state, SKIP and the white Devam. The difference is downstream: what they pick now shows on the loader, the ready screen, the paywall and the offer.'},
+ kept:'Untouched: all fourteen categories in your three groups, the emoji chips, the blue selected state, SKIP and the white Devam. The difference is downstream: what they pick now shows on the loader, the ready screen and the paywall headline.'},
 intro:{ctx:true,t:'Your four welcome slides',
  kept:'Untouched: Her Şeyi Tanı, Her Hayvanı Tanı, Bitki Dünyasını Keşfet and Gerçek Değeri Keşfet, in your order, with your scan brackets, the Samoyed and coin-value result cards, your pager dots and Devam.'},
 loader:{n:1,t:'Stop announcing a trial the paywall never shows',
@@ -997,27 +918,23 @@ loader:{n:1,t:'Stop announcing a trial the paywall never shows',
 ready:{n:1,t:'Stop announcing a trial the paywall never shows',
  hyp:'Try celebrating what they set up instead of “1 haftalık denemeniz aktif”, <b>because a trial announced here and missing one screen later reads as a trick, and several recent App Store reviews say exactly that</b>.',
  out:'CR +10–20%',
- n2:5,t2:'Put your 4.5 stars where they decide',hyp2:'Try your App Store rating on this screen, <b>because 4.5 from 4.5K ratings on the US App Store appears nowhere between the first question and the price</b>.',
+ n2:4,t2:'Put your 4.5 stars where they decide',hyp2:'Try your App Store rating on this screen, <b>because 4.5 from 4.5K ratings on the US App Store appears nowhere between the first question and the price</b>.',
  out2:'CR +10–15%',
  kept:'Your blue check circle, the confetti and the big two-tone headline. The tiles are your own slide photos for the categories they picked. The rating is the live US App Store figure.'},
-paywall:{n:3,t:'Name what they picked in the headline',
+paywall:{n:2,t:'Name what they picked in the headline',
  hyp:'Try putting the categories they chose into your headline, <b>because today the paywall says “Her Şeyi Tanımlayın” to someone who just told you they want plants, pets and coins</b>.',
  out:'CR +15–20%',
- n2:4,t2:'Say what yearly saves, and what gets billed',hyp2:'Try “92% less than weekly” on the yearly card and the billed price under Devam, <b>because $9.99 a week is $519.48 a year against $39.99, and nothing near the button says what will be charged</b>.',
+ n2:3,t2:'Say what yearly saves, and what gets billed',hyp2:'Try “92% less than weekly” on the yearly card and the billed price under Devam, <b>because $9.99 a week is $519.48 a year against $39.99, and nothing near the button says what will be charged</b>.',
  out2:'ARPU +10–15%',
- kept:'Your tilted photo collage, the two-line headline, the three icon rows, both plan cards with the blue selected gradient, “EN İYİ” with the flame, $0.77 HAFTALIK, the X, the info button and your light Devam.'},
-offer:{n:2,t:'Offer the 1-week trial when they close the paywall',
- hyp:'Try this sheet when they tap the X, <b>because your loader already promises a 1-week trial and the paywall offers none, so the trial works harder as a second chance than as a broken promise</b>. Same $39.99 yearly plan.',
- kept:'Your night-blue surface, type, blue accent and button shape. No new price and no discount: $39.99 is your published yearly price, and the 1-week trial is the one your own loader names.',
- out:'ARPU +10–15%'}
+ kept:'Your tilted photo collage, the two-line headline, the three icon rows, both plan cards with the blue selected gradient, “EN İYİ” with the flame, $0.77 HAFTALIK, the X, the info button and your light Devam.'}
 };
 function outBlock(lab,val){ return '<div class="pn-out"><div class="lab">'+lab+'</div><div class="v">'+val+'</div></div>'; }
 function paintPanel(){
   var d=PANEL[cur]; if(!d) return; var h='';
   if(d.ctx){ h+='<div class="pn-n ctx">Context · no change proposed</div><h3 class="pn-t">'+d.t+'</h3><div class="pn-kept">'+d.kept+'</div>'; }
   else {
-    h+='<div class="pn-n">Idea '+d.n+' of 5</div><h3 class="pn-t">'+d.t+'</h3><p class="pn-hyp">'+d.hyp+'</p>'+outBlock('Potential outcome · based on Adapty data',d.out);
-    if(d.hyp2){ h+='<div class="pn-sep"></div><div class="pn-n">Idea '+d.n2+' of 5</div><h3 class="pn-t">'+d.t2+'</h3><p class="pn-hyp">'+d.hyp2+'</p>'+outBlock('Potential outcome · based on Adapty data',d.out2); }
+    h+='<div class="pn-n">Idea '+d.n+' of 4</div><h3 class="pn-t">'+d.t+'</h3><p class="pn-hyp">'+d.hyp+'</p>'+outBlock('Potential outcome · based on Adapty data',d.out);
+    if(d.hyp2){ h+='<div class="pn-sep"></div><div class="pn-n">Idea '+d.n2+' of 4</div><h3 class="pn-t">'+d.t2+'</h3><p class="pn-hyp">'+d.hyp2+'</p>'+outBlock('Potential outcome · based on Adapty data',d.out2); }
     h+='<div class="pn-kept"><b>Your design, unchanged.</b> '+d.kept+'</div>';
   }
   if(S.lang!=='tr') h+='<div class="pn-kept"><b>Language.</b> Screens are shown in English to show one flow serving every market. Translated by us; store prices stay in US dollars, as published in the app.</div>';

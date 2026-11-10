@@ -2,15 +2,14 @@
 
 **Live:** https://melikesezer2019-cloud.github.io/lens-ai-flow-rebuild/
 
-Five ideas to unlock more revenue from the traffic Lens AI already has, plus a clickable prototype of the onboarding and paywall rebuilt in the app's own design. The screens stay yours. What they say changes, plus one new offer when someone closes the paywall.
+Four ideas to unlock more revenue from the traffic Lens AI already has, plus a clickable prototype of the onboarding and paywall rebuilt in the app's own design. The screens stay yours. Only what they say changes.
 
 | # | Idea | Screen | Potential outcome |
 | :-- | :-- | :-- | :-- |
 | 01 | Stop announcing a trial the paywall never shows | Loader · Ready | CR +10–20% |
-| 02 | Offer the 1-week trial when they close the paywall | Offer on close | ARPU +10–15% |
-| 03 | Name what they picked in the headline | Paywall | CR +15–20% |
-| 04 | Say what yearly saves, and what gets billed | Paywall | ARPU +10–15% |
-| 05 | Put your 4.5 stars where they decide | Ready | CR +10–15% |
+| 02 | Name what they picked in the headline | Paywall | CR +15–20% |
+| 03 | Say what yearly saves, and what gets billed | Paywall | ARPU +10–15% |
+| 04 | Put your 4.5 stars where they decide | Ready | CR +10–15% |
 
 The prototype has Turkish and English, light and dark mode, and a 30-second walkthrough. It opens straight on the prototype with `?open=proto`.
 
